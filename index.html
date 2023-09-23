@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FTP Transportation</title>
+    <style>
+        :root {
+            --main-font-size: 50px;  /* Define a CSS variable for the main font size */
+            --header-font-size: 40px;  /* Define a CSS variable for the header font size */
+        }
+        /* CSS for the top bar container */
+        .top-bar {
+            display: flex;  /* Make this a flex container */
+            justify-content: flex-start;  /* Align items to the start */
+            background-color: #336699;  /* Background color of the top bar */
+            padding: 20px;  /* Space around the text */
+            width: 100%;  /* Full width */
+        }
+        /* CSS for the header and nav container */
+        .header-nav-container {
+            display: flex;  /* Make this a flex container */
+            align-items: center;  /* Center items vertically */
+            border: 2px solid #336699;  /* Border around the container */
+            width: 100%;  /* Full width */
+        }
+        /* CSS for the header */
+        header {
+            text-align: left;  /* Align text to the left */
+            flex-grow: 1;  /* Allow header to grow */
+        }
+        header h1 {
+            color: white;  /* Text color */
+            margin: 0;  /* Remove default margin */
+            font-size: var(--header-font-size);  /* Use CSS variable for font size */
+            padding: 0 20px;  /* Padding around the text */
+        }
+        /* CSS for the navigation bar */
+        nav {
+            display: flex;  /* Make this a flex container */
+            margin-left: auto;  /* Push nav to the right */
+        }
+        nav a {
+            color: white;  /* Text color */
+            text-decoration: none;  /* Remove underline from links */
+            margin: 0 80px;  /* Adjusted margin to reduce space between links */
+            font-size: var(--main-font-size);  /* Use CSS variable for font size */
+        }
+        nav a:hover {
+            text-decoration: underline;  /* Underline links on hover */
+        }
+        /* New CSS for active navigation link */
+        nav a.active {
+            border-bottom: 4px solid white;
+        }
+
+        /* CSS for the main content container */
+        .main-content {
+            display: flex;  /* Make this a flex container */
+            flex-direction: column;  /* Stack items vertically */
+            align-items: center;  /* Center items horizontally */
+            justify-content: center;  /* Center items vertically */
+            height: calc(100vh - 130px);  /* Full viewport height minus the height of the top bar */
+            background-color: #88BBEE;  /* Background color */
+        }
+
+        /* CSS for the services heading */
+        .services-heading {
+            color: #336699;  /* Text color */
+            font-size: 40px;  /* Set font size */
+        }
+
+        /* CSS for the image container */
+        .image-container {
+            width: 100%;  /* Full width */
+            height: 25vh;  /* 25% of the viewport height */
+            /* background-image: url('Homepage.jpg'); */  /* Commented out the background-image property */
+            background-size: contain;  /* Ensure the entire image is displayed */
+            background-repeat: no-repeat;  /* No repeating of the image */
+            background-position: center;  /* Center the image */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top bar container -->
+    <div class="top-bar">
+        <!-- Header and nav container -->
+        <div class="header-nav-container">
+            <header>
+                <h1>Welcome to FTP Transportation</h1>
+            </header>
+
+            <!-- Navigation bar -->
+            <nav>
+                <a href="index.html" class="active">Home</a>
+                <a href="About.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="Careers.html">Careers</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Main content container -->
+    <div class="main-content">
+        <!-- Services heading -->
+        <div class="services-heading">SERVICES</div>
+
+        <!-- Image container -->
+        <div class="image-container"></div>
+    </div>
+
+    <!-- The rest of your webpage content goes here -->
+
+</body>
+</html>

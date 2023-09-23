@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>FTP Transportation</title>
+    <style>
+        :root {
+            --main-font-size: 50px;  /* Define a CSS variable for the main font size */
+        }
+        /* CSS for the top bar container */
+        .top-bar {
+            display: flex;  /* Make this a flex container */
+            justify-content: space-between;  /* Space out elements to the edges */
+            background-color: #336699;  /* Background color of the top bar */
+            padding: 40px;  /* 2x Space around the text */
+            width: 100%;  /* Full width */
+        }
+        /* CSS for the header and nav container */
+        .header-nav-container {
+            display: flex;  /* Make this a flex container */
+            justify-content: space-between;  /* Space out elements to the edges */
+            width: 100%;  /* Full width */
+            align-items: center;  /* Align items vertically */
+        }
+        /* CSS for the header */
+        header {
+            text-align: left;  /* Align text to the left */
+        }
+        header h1 {
+            color: white;  /* Text color */
+            margin: 0;  /* Remove default margin */
+            font-size: var(--main-font-size);  /* Use CSS variable for font size */
+            padding: 0 40px;  /* 2x Padding around the text */
+        }
+        /* CSS for the navigation bar */
+        nav {
+            margin: 0 auto;  /* Auto margin for horizontal centering */
+        }
+        nav a {
+            color: white;  /* Text color */
+            text-decoration: none;  /* Remove underline from links */
+            margin: 0 160px;  /* 2x Increased space between links */
+            font-size: var(--main-font-size);  /* Use CSS variable for font size */
+        }
+        nav a:hover {
+            text-decoration: underline;  /* Underline links on hover */
+        }
+        /* Added CSS for active navigation link */
+        nav a.active {
+            border-bottom: 4px solid white;  /* 2x border thickness */
+        }
+        /* CSS for the vision section */
+        .vision {
+            margin: 40px;  /* Margin around the vision text */
+            padding: 40px;  /* Padding around the vision text */
+            border: 4px solid #336699;  /* Border around the vision text */
+        }
+        .vision h2 {
+            color: #336699;  /* Text color for the vision heading */
+            font-size: 4em;  /* 2 times larger font size */
+        }
+        .vision p {
+            font-size: 2em;  /* 2 times larger font size */
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Top bar container -->
+    <div class="top-bar">
+        <!-- Header and nav container -->
+        <div class="header-nav-container">
+            <header>
+                <h1>FTP Transportation</h1>  <!-- Removed "Welcome to" -->
+            </header>
+
+            <!-- Navigation bar -->
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="about.html" class="active">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="Careers.html">Careers</a>
+            </nav>
+        </div>
+    </div>
+
+    <!-- Vision section -->
+    <div class="vision">
+        <h2>OUR VISION</h2>
+        <p>In a domain often seen as just another gear in the industrial machine, FTP Transportation strives to redefine standards by prioritizing the safety and welfare of our drivers over mere profit margins. We hold a strong conviction in forging enduring partnerships with our shippers, aiming to foster their expansion in economic upsurges and assure stability amidst economic downturns. Above all, FTP Transportation is committed to cultivating an environment that our team ardently appreciates being a part of, each and every day!</p>
+    </div>
+
+    <!-- Image below the vision section -->
+    <img src="uu.jpg" alt="Image description here">
+
+</body>
+</html>
